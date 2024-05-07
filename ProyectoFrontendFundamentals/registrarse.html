@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@600&family=Oswald:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="iniciasesion.hmtl">
+    <title>Registrarse</title>
+</head>
+<body>
+    
+    <div class="container-registro">
+        <div class="container-title1"><h1>Roma the game</h1></div>
+    <div class="container">
+    <div class="title">
+        <h1>Registrarse</h1>
+    </div>
+    <form autocomplete="on" action="https://formspree.io/f/xwkyabqz" method="post" target="_blank">
+
+        <label for="nombre">Nombre</label> 
+        <input type="text" id="nombre" name="name">
+
+        <label for="username">Username</label>
+        <input type="text" id="username" name="username">
+
+        <label for="email">Email</label>
+        <input type="email" id="email" name="Email">
+
+        <label for="password">Contraseña</label>
+        <input type="password" id="password" name="password">
+        <label for="password-confirm">Confirmar Contraseña</label>
+        <input type="password" id="password-confirm" name="password-confirm">
+
+        <div class="checkbox">
+            <label for="checkbox"><input type="checkbox" id="checkbox" value="terminos y condiciones">Acepta terminos y condiciones</label>
+        </div>
+
+        <div class="boton">
+            <button type="submit">Registrar</button>
+        </div>
+        
+    </form>
+    
+    <div class="texto">
+        <p>¿Olvido su contraseña? <a href="#">Presione aqui</a></p>
+        <p>¿Ya estas registrado? <a href="iniciasesion.html">Inicia sesión</a></p>
+    </div>
+    </div>
+    </div>
+</body>
+</html>

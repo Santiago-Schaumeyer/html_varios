@@ -1,0 +1,95 @@
+*{
+    font-family: 'Cinzel', serif;
+}
+
+body {
+    background-color: rgb(68, 26, 26);
+}
+
+.container-registro {
+height: 700px;
+width: 600px;
+margin: auto;
+background-image: url(imperio-romano2.jpg);
+
+}
+
+.container-registro h1{
+text-align: center;
+font-size: 50px;
+color: #fff;
+text-shadow: 1px 1px 2px black;
+}
+
+.container-title1 {
+background-color: rgb(168, 8, 8);
+}
+
+
+
+.container {
+    margin: auto;
+    width: 200px;
+    height: auto;
+    padding: 10px;
+    border-radius: 5px;
+    background: #fff;
+
+}
+
+.container-inicio {
+    margin: auto;
+    width: 200px;
+    height: auto;
+    
+    padding: 10px;
+    border-radius: 5px;
+    background: #fff;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.title h1 {
+    font-size: 25px;
+    border-bottom: 1px solid rgb(223, 223, 223);
+    padding-bottom: 5px;
+    color: rgb(168, 8, 8);
+}
+
+
+.boton {
+    text-align: center;
+    margin-top: 10px;
+}
+
+.boton button{
+    text-decoration: none;
+    background-color: rgb(168, 8, 8);
+    color: #fff;
+}
+
+.texto{
+    text-align: center;
+}
+
+.texto p{
+    font-size: 12px;
+}
+
+.texto a{
+    text-decoration: none;
+}
+
+label {
+    font-size: 15px;
+}
+
+
+.checkbox {
+    margin-top: 10px;
+}
+
+.checkbox label {
+    font-size: 10px;
+}
+
