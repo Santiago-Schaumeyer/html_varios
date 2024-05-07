@@ -1,0 +1,292 @@
+* {
+    font-family: 'Oswald', sans-serif;
+}
+
+body{
+    background-color: rgb(227, 227, 227);
+}
+
+
+.nav-container {
+    background-color: rgb(37, 37, 37);
+    width: 100%;
+    height: auto;
+}
+
+.logo {
+    text-decoration: none;
+
+    margin: 20px;
+    display:  inline-block;
+}
+
+.logo a {
+    font-size: 40px;
+    text-decoration: none;
+    color: #fff;
+}
+
+nav li {
+    display: inline-block;
+}
+
+
+
+.nav-links li {
+    margin-left: 50px;
+    height: 100%;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.nav-links li:hover {
+    border-bottom: 3px solid red;
+    transition: .3s;
+}
+
+main {
+    background-color: rgb(227, 227, 227);
+    display: flex;
+    justify-content:center;
+    align-items: center;
+
+}
+
+main img {
+    max-width: 1000px;
+}
+
+
+#flecha{
+    font-size: 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+
+
+section {
+    padding-top: 30px;
+    padding-bottom: 30px;
+
+}
+
+article {
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+
+.articulos {
+    width: 300px;
+    height: 420px;
+    border-radius: 3px;
+    background-color:#fff;
+    display: inline-block;
+}
+
+
+.articulos h3{
+    display: 100vh;
+    background-color: rgb(37, 37, 37);
+    text-align: center;
+    padding: 7px;
+    border-bottom: 7px solid rgb(178, 41, 0);
+    font-size: 22px;
+    color: #fff;
+    border-radius: 3px 3px 0 0;
+}
+
+.articulos img {
+    padding: 10px;
+}
+
+.articulos p {
+    padding-left: 5px;
+    padding-bottom: 15px;
+
+}
+
+.articulos-link {
+    padding: 10px 15px;
+    background: rgb(178, 41, 0);
+    border-radius: 0 0 3px 3px;
+    text-align: center;
+}
+
+.articulos-link a {
+    text-decoration: none;
+    color: #fff;
+
+}
+
+.articulos-link a:hover {
+    border-bottom: 2px solid #fff;
+}
+
+footer {
+    background-color: rgb(37, 37, 37);
+    margin-top: 100px;
+}
+
+.footer-container {
+
+    padding: 25px;
+    text-align: center;
+    height: 180px;
+    width: 60%;
+    margin: auto;
+}
+
+.footer-left {
+
+
+    float: left;
+
+}
+
+.logo-footer {
+    text-decoration: none;
+    color: #fff;
+    font-size: 20px;
+    
+}
+
+.footer-left li {
+    list-style: none;
+    padding-top: 5px;
+}
+
+.footer-left a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.footer-left a:hover {
+    border-bottom: 1px solid #fff;
+}
+
+.footer-center {
+ 
+    display: inline-block;
+    border-left: 3px solid rgb(178, 41, 0);
+    border-right: 3px solid rgb(178, 41, 0);
+    padding: 60px;
+}
+
+.footer-center a {
+    text-decoration: none;
+    color: #fff;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.footer-center a:hover {
+    border-bottom: 1px solid #fff;
+}
+
+.footer-right {
+
+
+    float: right;
+    padding: 60px
+    
+}
+
+.footer-right a {
+    text-decoration: none;
+    color: #fff;
+}
+
+
+.footer-right a:hover {
+    border-bottom: 1px solid #fff;
+}
+
+
+.container-form{
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+}
+
+form{
+    border: 1px solid ;
+    border-radius: 3px;
+}
+
+.container-inp{
+    display: flex;
+    flex-direction: column;
+
+
+}
+
+.container-form2{
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+}
+
+.container-submit{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.container-submit input{
+    background-color: rgb(178, 41, 0);
+    color: #fff;
+    width: 80px;
+    margin: 20px;
+}
+
+.container-i p{
+    display: inline-block;
+    padding: 20px;
+}
+
+.container-i i{
+    color:rgb(178, 41, 0);
+    padding-right: 10px;
+}
+
+.container-contactenos{
+
+    padding: 6px;
+}
+
+.trabajos__contenedor_contenedor-principal{
+    display: flex;
+    width: 80%;
+    margin: auto;
+    margin-top: 20px;
+    justify-content: center;
+}
+
+.trabajos__contenedor-principal{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+    flex-wrap: wrap;
+}
+
+.trabajos__contenedor-principal img{
+    width: 250px;
+    height: 250px;
+    object-fit: cover;
+}
+
+.trabajos__title{
+    width: 80%;
+    margin: auto;
+    margin-top: 10px;
+    text-align: center;
+}
